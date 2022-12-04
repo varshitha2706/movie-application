@@ -1,0 +1,90 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <form action="/signupSubmit" style="border:1px solid #ccc"method="GET">
+            <div class="content">
+                <div>
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.td-7edO4fp295Qx3YJLb6wHaFj&pid=Api&P=0" alt="picture" class="photo">
+                </div>
+                <h1>Sign Up</h1>
+                <p>Fill in this form to create an account.</p>
+                <hr>
+                <label for="firstname"><b>First_Name</b></label>
+                <input type="text" placeholder="Enter First Name" name="first_name" required>
+
+                <label for="lastname"><b>Last_Name</b></label>
+                <input type="text" placeholder="Enter Last Name" name="last_name" required>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <label for="psw-reenter"><b>Re-enter Password</b></label>
+                <input type="password" placeholder="Re-enter Password" name="re_psw">
+
+                <div class="clearfix">
+                    <button type="submit" class="signup">Sign Up</button>
+                </div>
+            </div>
+        </form>
+    </body>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;}
+        * {box-sizing: border-box}
+        * {background-color: lightblue} 
+        input[type=text], input[type=password] {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display:inline-block;
+            border: none;
+            background: #f1f1f1;
+        }
+        input[type=text]:focus, input[type=password]:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+        button {
+            background-color:fuchsia;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+        }
+        .clearfix::after {
+            content: "";
+            clear: all;
+            display: table;
+        }
+        button:hover{
+            opacity: 1;
+        }
+        hr {
+            border: 1px solid #f1f1f1;
+            margin-bottom: 25px;
+        }
+        .content{
+            text-align: center;
+            margin: 400px 400px 400px 400px;
+        }
+        img.photo{
+            width: 50%;
+            border-radius: 50%;
+        }
+        .signup{
+            float: left;
+            width: 50%;
+        }
+        @media screen and (max-width: 350px) {
+            .signup {
+                width: 100%;
+            }
+        }
+    </style>
+</html>

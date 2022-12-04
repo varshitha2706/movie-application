@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page of movie app</title> 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+        *{
+            box-sizing: border-box;
+        }
+        :root{
+            --color1:#22254b;
+            --color2: #373b69;
+        }
+        body{
+            background-color:deepskyblue;
+            font-family: 'Poppins', 'sans-serif';
+            margin: 10;
+            
+        }
+        header{
+            padding:1rem; 
+            text-align: center;
+            background-color: var(--primary-color);
+        }
+      .intro{
+            padding:0.1rem 1rem;
+            display: flex;
+            justify-content: flex-start;
+            color:darkgreen;
+        }
+        .search{
+            background-color: transparent;
+            border: 2px solid var(--color1);
+            padding:0.5rem 1rem;
+            border-radius: 100px;
+            font-size: 1rem;
+            color: white;
+            border-color: red;
+            font-family: inherit;
+        }
+        .search:focus{
+            outline:0;
+            background-color: var(--color1);
+        }
+        .search::placeholder{
+            color: #7378c5;
+        }
+        main{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .movie{
+            width: 300px;
+            margin: 1rem;
+            border-radius: 10px;
+            background-color: var(--color2);
+            position: relative;
+            overflow: hidden;
+        }
+        .movie img{
+            width: 100%;
+        }
+        .movie-info{
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.5rem 1rem 1rem;
+        }
+        .movie-info span{
+            background-color: var(--color1);
+            padding: 0.25rem 0.5rem;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .overview{
+            position:absolute;
+            left:0;
+            right:0;
+            bottom:0;
+            background-color: #fff;
+            padding: 1rem;
+            max-height: 100%;
+            transform:translateY(101%);
+            transition:transform 0.3s ease-in;
+        }
+        button {
+            background-color: var(--color2);
+            color: white;
+            padding: 20px 0px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 70%;
+            opacity: 0.9;
+        }
+        .movie:hover .overview{
+            transform:translateY(0)
+        }
+    </style>
+</head>
+<body>
+    <h2 class="intro">Welcome,You have Successfully Logged In.</h2>
+    <hr>
+    <header>
+        <div>
+            <p style="background-color: var(--color2) ;color:crimson">*Search here for the movie you wish for*</p>
+            <form action="movienamesearch" method="GET">
+                <input type="text" placeholder="Search" name="moviename" class="search">
+            </form>
+            
+        </div>
+    </header>
+
+
+    <main id="main">
+
+
+        <div class="movie">
+            <img src="http://en.wikipedia.org/wiki/Special:FilePath/Love_Today_2022_poster.jpg" alt="lovetoday">
+
+            <div class="movie-info"> 
+                <h3>LOVE TODAY</h3>
+                <span class="green">4.2</span>
+            </div>
+
+            <div class="overview">
+                The movie revolves around the love story of Uthaman Pradeep and Nikitha and an unusual request made by Nikitha's father.The couple should exchange their phones for a day. At the end of the day, if they are still in love, Venu will not object to their union.They learn each other's secrets through browsing histories and chats.
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.Mx3XmR9xIyb7QetW0BD5agHaFj&pid=Api&P=0" alt="kantara">
+
+            <div class="movie-info"> 
+                <h3>KANTARA</h3>
+                <span class="green">4.5</span>
+            </div>
+                
+            <div class="overview">
+                In 1847, there lived a king that had a great kingdom as well as a loving wife and child, but could not find peace. He sets out on a journey to discover true happiness and comes upon a stone in a forest occupied by Panjurli Daiva, a deity that protects the villagers that reside in the forest.
+            </div>
+        </div> 
+
+        <div class="movie">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.7YlIlWHU1FLPlURmNcVTdQHaFj&pid=Api&P=0" alt="karthikeya-2">
+
+            <div class="movie-info"> 
+                <h3>KARTHIKEYA-2</h3>
+                <span class="green">4.2</span>
+            </div>
+                
+            <div class="overview">
+                Before the Kalyug begins, Lord Krishna hands over an anklet that holds the answer to all of world's miseries. Years later a doctor finds himself in the thick of things when the pursuit for the anklet carries on. A doctor with a curious mind Karthikeya, believes in pursuing the truth. The quest leads Karthik to discover the power of the ancient Indian belief system and the essence of Krishna.
+            </div>
+        </div> 
+
+        <div class="movie">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.6nO2qdIufYJ5jJZMoh1cKAHaLP&pid=Api&P=0" alt="vikram">
+
+            <div class="movie-info"> 
+                <h3>VIKRAM</h3>
+                <span class="green">4.7</span>
+            </div>
+                
+            <div class="overview">
+                Agent Vikram with his masked identity leads a masked gang, who have their own tragic story in their past because of a deadly drug mafia. Agent Vikram fights against the drug mafia headed by Santhanam with the help of an undercover agent Amar and Narein.
+            </div>
+        </div>
+        
+        <div class="movie">
+            <img src="https://www.filmibeat.com/ph-big/2021/06/rrr_16249644106.jpg" alt="Image">
+
+            <div class="movie-info"> 
+                <h3>RRR</h3>
+                <span class="green">3.9</span>
+            </div>
+
+            <div class="overview">
+                RRR pits Raju and Bheem against a truly vile colonial governor and somehow even more despicable wife, who are introduced kidnapping a child and somehow grow even less sympathetic as the film progresses. After much struggle, good triumphs and evil suffers.
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="https://static.joonsite.com/seelatest/2208040941115123.jpg" alt="Image">
+
+            <div class="movie-info"> 
+                <h3>BIMBISARA</h3>
+                <span class="green">4.2</span>
+            </div>
+
+            <div class="overview">
+                RRR pits Raju and Bheem against a truly vile colonial governor and somehow even more despicable wife, who are introduced kidnapping a child and somehow grow even less sympathetic as the film progresses. After much struggle, good triumphs and evil suffers.
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.nteoUjjuFUFa1S9Dgse6-wHaE_&pid=Api&P=0" alt="Image">
+
+            <div class="movie-info"> 
+                <h3>MAJOR</h3>
+                <span class="green">4.8</span>
+            </div>
+
+            <div class="overview">
+                RRR pits Raju and Bheem against a truly vile colonial governor and somehow even more despicable wife, who are introduced kidnapping a child and somehow grow even less sympathetic as the film progresses. After much struggle, good triumphs and evil suffers.
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.W2MNZO-dTnC6-LhNVFasfgHaJQ&pid=Api&P=0" alt="Image">
+
+            <div class="movie-info"> 
+                <h3>AKHANDA</h3>
+                <span class="green">4.5</span>
+            </div>
+
+            <div class="overview">
+                RRR pits Raju and Bheem against a truly vile colonial governor and somehow even more despicable wife, who are introduced kidnapping a child and somehow grow even less sympathetic as the film progresses. After much struggle, good triumphs and evil suffers.
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="https://i.pinimg.com/originals/32/94/1b/32941bb5c6210e47374107c2039d1ead.jpg" alt="Image">
+
+            <div class="movie-info"> 
+                <h3>FIDA</h3>
+                <span class="green">4.4</span>
+            </div>
+
+            <div class="overview">
+                RRR pits Raju and Bheem against a truly vile colonial governor and somehow even more despicable wife, who are introduced kidnapping a child and somehow grow even less sympathetic as the film progresses. After much struggle, good triumphs and evil suffers.
+            </div>
+        </div>
+    </main> 
+    </body>
+</html>
