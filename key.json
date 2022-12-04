@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "varshitha-project",
+  "private_key_id": "513b0f111ee36304a70364a54f3f7c7edb106c6d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDNFyK8sfEByxGx\nA8zr0wZCNgYXkoA6aKSEA5u/xdzUgF7LwfGPLwhD1jGWtjgmUng9dEwBg4BmHbgL\np1vbIo97rBw5TY6BODbTCFidkC+rZEdWjnfSSSrDxzftO2GRFwGOGEKrUl5O79f+\nQQUuJjpjo7PFgf6NgapRyEmDn0gZUdx82H0l4s2Jvy8v+6U9GxNsjj1RVcJ0Oo6A\nUm+Sy7ENuEow6Rs+VxPNSU7MVqXvoygEB2QySzwBo2bBdD3rpXM+CdsdzA9Qbme5\no2NmPmDEy+3lFGUHN2X32cuUY8SXUFicGjQqsGvq+7rbGS1VGRT6mcrUue8TbgEu\nvi5cj6YTAgMBAAECggEATAmp3V/zxQBvHLwV+9EPXvj8pTyxwfYOGMvlsOJBD6BQ\nhSbw0m9TlyMQ25nPk5W78rzteRoyPqoCFIAGNGbJ38Zd6HjyvsICwZc0k6Zjph3V\nvSexEQwDiPaRq6j6cXqgHvirry0ovgd6g0/EBeoyd8K34iBiKkDKzut9JgmmB4yC\nCrueISjJCysQ+w3zIIb/SwozCwk0S5AMjfnDWrWwIpDrqkVg6it63DBvPjJqaChF\nQcQ4sfDHuERk3HiAJe2/X3PrKoQk8cf1nsa8+xSSHuZGXKIOrNarI5q1nxJBdngL\n/bBEbvfAk+If5mp9Rj3zrLQdQbamcvmel8nP9XrjoQKBgQDy35kotOFZqqWTmcrX\n9QqfpVhYZzLayWU6oMDh6DcezPWErY4XCzRFfwUDVw9k28Zj6zf7+KRD2KbwaiXC\nHIZ6N7dlxGLZcl8RbzMnM45q5Rf0R+9LyTvXCUuFp8QEeunIctuHvYj5byKjVdvQ\nt7feMY0fb3jjHMXocCEJiVp2GwKBgQDYLMUwcVqwaTPnVpC9SHacFoI3Cf6AB1Wc\nYXjir4Vu1CrSNO/P7PaLYrFTX9oeF7C2FXcco6tgfv/n+Ljzzs5Wt8Y4QgHxmI5S\nR4bY/o+KHmiBCDStiQafBxsaeg77dlb8flRgSAYYcsI7OzXyozQkfPufeIO8p1Ir\nvIYCgbbvaQKBgQDKd9CMeM3sHDBQLcNF6QdkM0jE2bMxZPc4us5RBW7+BEsgwjZT\ny4lV7h/VuvwgTn7CyVIwggUecjwo67Ryb6lDtbLz6ZWmRIwwUo1IPtiZEEa55EX+\n3dE+4IbO8x6bxYOjEO0l6cGIfzdXBrpq8t0bJB/LdvhGDLSHowJHmvOIxQKBgQCx\nnleHLhwtxsL22ZGjdN6/8V6cioGqAFy/WPdSipVAMuPcQ9KnLTSF4lmA/8jf4Oc5\nNPnhdjlh1/e8SgjtiobPicA8iT+/mnGV+V86/C5Edie3nV5rF6NxFw2V+6RDyUA/\nxizdz0/y1pfwwv3Yl3BIasj0hrj3USOa/BPAC4SbwQKBgQCeobUBnui5q1RR4l47\naqEKDLOHqXL22q9zvD5ECCMv5KqJHDwA8gI3YfeibM1mDTZ6K3ccELYYceLIgj7x\nApalyZ0RbzlCiqG+DbdS1z3ryMYf5AneC+OSBOf5yZu9dZyy1Cd2VL2x7vqPkxbl\n0IBzy1FW3rD8vcMtFNfcZv1K9w==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-k8fwk@varshitha-project.iam.gserviceaccount.com",
+  "client_id": "115915468689245536645",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-k8fwk%40varshitha-project.iam.gserviceaccount.com"
+}
